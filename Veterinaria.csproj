@@ -66,6 +66,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+<<<<<<< HEAD
 	  <MauiXaml Update="Views\LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -76,5 +77,15 @@
 	  <Folder Include="ViewModels\" />
 	  <Folder Include="Services\" />
 	</ItemGroup>
+=======
+  		<MauiXaml Update="Views\LoginPage.xaml">
+    		<Generator>MSBuild:Compile</Generator>
+  		</MauiXaml>
+  		<MauiXaml Update="Views\RegistroMascotaPage.xaml">
+    		<Generator>MSBuild:Compile</Generator>
+  		</MauiXaml>
+	</ItemGroup>
+
+>>>>>>> 21817c19ce9a6297fd41ca4f588062fdc85a0f61
 
 </Project>

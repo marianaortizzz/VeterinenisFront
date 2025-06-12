@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Veterinaria.Views.RegistroMascotaPage"
+             Title="Registro Paciente"
+             BackgroundColor="#FAFAF0">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+
+            <!-- Flecha de regreso -->
+            <Image Source="flecha_izquierda.png"
+                   HeightRequest="24"
+                   WidthRequest="24"
+                   HorizontalOptions="Start"
+                   Margin="0,10,0,0"/>
+
+            <!-- Título -->
+            <Label Text="Registro Paciente"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalOptions="Center"/>
+
+            <!-- Imagen del perro -->
+            <Image Source="perro.jpg"
+                   HeightRequest="150"
+                   WidthRequest="150"
+                   HorizontalOptions="Center"
+                   Margin="0,10"/>
+
+            <!-- Campos del formulario -->
+            <Label Text="Nombre" />
+            <Entry Placeholder="Ingrese Nombre" Text="{Binding Nombre}" BackgroundColor="#EDEEC8" />
+
+            <Label Text="Especie" />
+            <Entry Placeholder="Ingrese Especie" Text="{Binding Especie}" BackgroundColor="#EDEEC8" />
+
+            <Label Text="Raza" />
+            <Entry Placeholder="Ingrese Raza" Text="{Binding Raza}" BackgroundColor="#EDEEC8" />
+
+            <Label Text="Edad" />
+            <Entry Placeholder="Ingrese Edad" Text="{Binding Edad}" Keyboard="Numeric" BackgroundColor="#EDEEC8" />
+
+            <Label Text="Padecimientos" />
+            <Entry Placeholder="Ingrese Padecimientos" Text="{Binding Padecimientos}" BackgroundColor="#EDEEC8" />
+
+            <Label Text="Intervenciones" />
+            <Entry Placeholder="Ingrese Intervenciones" Text="{Binding Intervenciones}" BackgroundColor="#EDEEC8" />
+
+            <Label Text="Propietario" />
+            <Entry Placeholder="Ingrese Propietario" Text="{Binding Propietario}" BackgroundColor="#EDEEC8" />
+
+            <!-- Botón Guardar -->
+            <Button Text="Guardar"
+                    BackgroundColor="#7D9262"
+                    TextColor="White"
+                    CornerRadius="20"
+                    HeightRequest="50"
+                    Command="{Binding GuardarCommand}" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
