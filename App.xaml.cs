@@ -1,4 +1,6 @@
-﻿namespace Veterinaria
+﻿using Veterinaria.Views;
+
+namespace Veterinaria
 {
     public partial class App : Application
     {
@@ -9,8 +11,8 @@
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            var loginPage = new LoginPage();
-            return new Window(new NavigationPage(loginPage));
+            var registroMascota = new RegistroMascotaPage();
+            return new Window(new NavigationPage(registroMascota));
         }
     }
 }
