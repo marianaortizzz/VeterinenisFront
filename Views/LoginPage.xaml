@@ -19,12 +19,12 @@
             <Label Text="Log In"
                    FontSize="24"
                    FontAttributes="Bold"
-                   TextColor="#121113"
+                   TextColor="#222725"
                    HorizontalOptions="Center" 
                    Margin="0,20"/>
 
             <Label Text="Email"
-                   TextColor="#121113"
+                   TextColor="#222725"
                    FontAttributes="Bold"/>
 
             <Entry Placeholder="Ingresa tu correo"
@@ -35,7 +35,7 @@
                    Margin="0,0,0,20"/>
 
             <Label Text="Contraseña"
-                   TextColor="#121113"
+                   TextColor="#222725"
                    FontAttributes="Bold"/>
 
             <Entry Placeholder="Ingresa tu contraseña"
@@ -46,10 +46,10 @@
                     Margin="0,0,0,50"/>
             <Button Text="Ingresar"
                     Command="{Binding LoginCommand}"
-                    BackgroundColor="#222725"
+                    BackgroundColor="#899878"
                     CornerRadius="20"
                     HeightRequest="50"
-                    TextColor="#F7F7F2"
+                    TextColor="#121113"
                     Clicked="onClick"
                     FontAttributes="Bold"/>
 
