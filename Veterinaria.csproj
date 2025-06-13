@@ -72,6 +72,9 @@
 		  <MauiXaml Update="Views\RegistroMascotaPage.xaml">
 		    <Generator>MSBuild:Compile</Generator>
 		  </MauiXaml>
+		  <MauiXaml Update="Views\RegistroDuenoPage.xaml">
+		  	<Generator>MSBuild:Compile</Generator>
+		  </MauiXaml>
 		</ItemGroup>
 	
 		<ItemGroup>
