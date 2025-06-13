@@ -11,7 +11,7 @@ namespace Veterinaria
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            var registro = new RegistroDuenoPage();
+            var registro = new InventarioPage();
             return new Window(new NavigationPage(registro));
         }
     }
